@@ -1,6 +1,7 @@
 # YOLOV5 Triton Inferece Server Using Tensorrt
 
-First of all, I would like to thank [wang-xinyu](https://github.com/wang-xinyu/tensorrtx) and [ultralytics](https://github.com/ultralytics/yolov5). My repo was heavily based on both of two repoes.  
+First of all, I would like to thank [wang-xinyu](https://github.com/wang-xinyu/tensorrtx), [isarsoft](https://github.com/isarsoft/yolov4-triton-tensorrt),  [ultralytics](https://github.com/ultralytics/yolov5). 
+My repo was heavily based on both of these repositories.  
 This repo implemented YOLOV5 based on Tensorrt engine and Triton Inference Server
 
 # How to run
