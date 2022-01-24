@@ -1,12 +1,12 @@
 # Prerequisites
 *.d
-
+__pycache__
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
-
+*.pyc
 # Precompiled Headers
 *.gch
 *.pch
@@ -31,6 +31,16 @@
 *.out
 *.app
 z
-yolov5
+yolov5s
 create_engine
 triton_deploy
+create_container.sh
+tensorrtx/
+*.jpg
+*.png
+*.engine
+*.wts
+*.o
+*.so
+*.wts
+*.pt
