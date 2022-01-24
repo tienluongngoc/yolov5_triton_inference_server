@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+z
+yolov5
+create_engine
+triton_deploy
