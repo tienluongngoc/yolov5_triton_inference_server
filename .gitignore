@@ -36,6 +36,7 @@ create_engine
 triton_deploy
 create_container.sh
 tensorrtx/
+yolov5s
 *.jpg
 *.png
 *.engine
