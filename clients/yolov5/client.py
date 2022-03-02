@@ -294,7 +294,7 @@ if __name__ == '__main__':
 
             for box in detected_objects:
                 print(f"{COCOLabels(box.classID).name}:{box.confidence}")
-                plot_one_box(box.box(), input_image,color=tuple(RAND_COLORS[box.classID % 64].tolist()), label=f"{COCOLabels(box.classID).name}: {box.confidence:.2f}",)   
+                plot_one_box(box.box(), frame, color=tuple(RAND_COLORS[box.classID % 64].tolist()), label=f"{COCOLabels(box.classID).name}: {box.confidence:.2f}",)   
 
             if FLAGS.out:
                 out.write(frame)
